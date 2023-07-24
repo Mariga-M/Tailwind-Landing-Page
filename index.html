@@ -6,6 +6,26 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline"> Hello Pineapple</h1>
+    <!-- NavBar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- flex container -->
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="pt-2">
+                <img src="img/Logo.svg" width="150px" alt="">
+            </div>
+            <!-- menu items -->
+            <div class="hidden md:flex space-x-6 ">
+                <a href="#" class="hover:text-darkGrayishPurple">About Us</a>
+                <a href="#" class="hover:text-darkGrayishPurple">Shop</a>
+                <a href="#" class="hover:text-darkGrayishPurple">Community</a>
+                <a href="#" class="hover:text-darkGrayishPurple">Contact Us</a>
+            </div>
+            <!-- Button -->
+            <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightGreen rounded-full baseline hover:bg-brightGreenLight">
+                Get Started
+            </a>
+        </div>
+    </nav>
 </body>
 </html>
