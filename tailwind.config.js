@@ -17,7 +17,7 @@ module.exports = {
         darkGrayishPurple: 'hsl(292, 12%, 61%)',
         veryDarkPurple: 'hsl(286, 12%, 13%)',
         veryPaleGreen: 'hsl(137, 100%, 96%)',
-        veryLightGray: 'hsl(346, 25%, 90%)'
+        veryLightPurple: 'hsl(346, 25%, 90%)'
       }
     },
   },
