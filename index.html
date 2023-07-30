@@ -12,7 +12,7 @@
         <div class="flex items-center justify-between">
             <!-- logo -->
             <div class="pt-2">
-                <img src="img/Logo.svg" width="200px" alt="">
+                <img src="img/Logo.png" width="300px" alt="">
             </div>
             <!-- menu items -->
             <div class="hidden space-x-6 md:flex">
@@ -25,6 +25,23 @@
             <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightGreen rounded-full baseline hover:bg-brightGreenLight md:block ">
                 Join Community
             </a>
+
+            <!-- Hamburger menu -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:text-brightGreen">About Us</a>
+                <a href="#" class="hover:text-brightGreen">Shop</a>
+                <a href="#" class="hover:text-brightGreen">Community</a>
+                <a href="#" class="hover:text-brightGreen">Contact Us</a>
+            </div>
         </div>
     </nav>
 
@@ -264,7 +281,7 @@
     </section>
     
     <!-- footer -->
-    <section class="bg-veryDarkPurple">
+    <footer class="bg-veryDarkPurple">
         <!-- flex container -->
         <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
             <!-- logo and social links -->
@@ -337,6 +354,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
